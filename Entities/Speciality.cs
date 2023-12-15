@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DBTemplate.Entities
+{
+    public class Speciality
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+
+        //public virtual Chair? Chair { get; set; }
+        // не знаю чи обовязково додавати,
+        // але по логіці спеціальність має належати до якоїсь кафедри
+    }
+}
