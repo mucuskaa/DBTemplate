@@ -8,10 +8,6 @@ namespace DBTemplate.Entities
 {
     public class Student : Person
     {
-        public Group? Group { get; set; }//посилання на групу до якої належить, обовязково має бути
-
-        //public int? GroupId { get; set; }
-        //на мій погляд варто було б додати але не впевнена
-
+        public Group? Group { get; set; }
     }
 }

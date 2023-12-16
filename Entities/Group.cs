@@ -11,8 +11,9 @@ namespace DBTemplate.Entities
         public int Id { get; set; }
         public string Name { get; set; }
 
-        public virtual Employee? Supervisor { get; set; } // посилання на працівника який є куратором групи
-        public virtual ICollection<Student>? Students { get; set; } //посилання на студентів
+        public virtual Speciality? Speciality { get; set; }
+        public virtual Employee? Supervisor { get; set; } 
+        public virtual ICollection<Student>? Students { get; set; } 
 
         public Group()
         {
